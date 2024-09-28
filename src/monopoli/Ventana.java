@@ -4,17 +4,35 @@
  */
 package monopoli;
 
-/**
- *
- * @author FG
- */
-public class Ventana extends javax.swing.JFrame {
+import java.awt.Component;
+import java.awt.Container;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
 
-    /**
-     * Creates new form Ventana
-     */
+
+
+
+
+public class Ventana extends javax.swing.JFrame {   
+    JLabel[] repPosJ1=new JLabel[40];
+    JLabel[] repPosJ2=new JLabel[40];
+    JLabel[] repPosJ3=new JLabel[40];
+    JLabel[] repPosJ4=new JLabel[40];
+    ImageIcon imagenJugador1 = new ImageIcon(getClass().getResource("/mono2.png"));
+    ImageIcon imagenJugador2 = new ImageIcon(getClass().getResource("/policia2.png"));
+    ImageIcon imagenJugador3 = new ImageIcon(getClass().getResource("/zapato2.png"));
+    ImageIcon imagenJugador4 = new ImageIcon(getClass().getResource("/platano2.png"));
+    public Jugador[] jugadores;
+    public int posJugadores[];
     public Ventana() {
         initComponents();
+        nuevaPartidaBJ2.setVisible(false);
+        nuevaPartidaBJ1.setVisible(false);
+        nuevaPartidaBJ3.setVisible(false);
+        nuevaPartidaBJ4.setVisible(false);
+        numJugadoresL.setVisible(false);
     }
 
     /**
@@ -27,17 +45,17 @@ public class Ventana extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        casilla_40 = new javax.swing.JPanel();
-        nom_casilla_40 = new javax.swing.JLabel();
-        col_casilla_40 = new javax.swing.JPanel();
-        pos_j2_casilla_40 = new javax.swing.JLabel();
-        pos_j1_casilla_40 = new javax.swing.JLabel();
-        pos_j4_casilla_40 = new javax.swing.JLabel();
-        pos_j3_casilla_40 = new javax.swing.JLabel();
-        cons_4_casilla_40 = new javax.swing.JLabel();
-        cons_3_casilla_40 = new javax.swing.JLabel();
-        cons_1_casilla_40 = new javax.swing.JLabel();
-        cons_2_casilla_40 = new javax.swing.JLabel();
+        casilla_0 = new javax.swing.JPanel();
+        nom_casilla_0 = new javax.swing.JLabel();
+        col_casilla_0 = new javax.swing.JPanel();
+        pos_j2_casilla_0 = new javax.swing.JLabel();
+        pos_j1_casilla_0 = new javax.swing.JLabel();
+        pos_j4_casilla_0 = new javax.swing.JLabel();
+        pos_j3_casilla_0 = new javax.swing.JLabel();
+        cons_4_casilla_0 = new javax.swing.JLabel();
+        cons_3_casilla_0 = new javax.swing.JLabel();
+        cons_1_casilla_0 = new javax.swing.JLabel();
+        cons_2_casilla_0 = new javax.swing.JLabel();
         casilla_39 = new javax.swing.JPanel();
         nom_casilla_39 = new javax.swing.JLabel();
         col_casilla_39 = new javax.swing.JPanel();
@@ -468,6 +486,14 @@ public class Ventana extends javax.swing.JFrame {
         cons_1_casilla_1 = new javax.swing.JLabel();
         cons_2_casilla_1 = new javax.swing.JLabel();
         logo = new javax.swing.JLabel();
+        controlPanel = new javax.swing.JPanel();
+        continuarB = new javax.swing.JButton();
+        nuevaPartidaB = new javax.swing.JButton();
+        nuevaPartidaBJ2 = new javax.swing.JButton();
+        nuevaPartidaBJ1 = new javax.swing.JButton();
+        nuevaPartidaBJ3 = new javax.swing.JButton();
+        nuevaPartidaBJ4 = new javax.swing.JButton();
+        numJugadoresL = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -475,53 +501,53 @@ public class Ventana extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(1800, 910));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        casilla_40.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        casilla_40.setPreferredSize(new java.awt.Dimension(140, 160));
-        casilla_40.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        casilla_0.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        casilla_0.setPreferredSize(new java.awt.Dimension(140, 160));
+        casilla_0.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        nom_casilla_40.setText("jLabel1");
-        casilla_40.add(nom_casilla_40, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 70, 30));
+        nom_casilla_0.setText("jLabel1");
+        casilla_0.add(nom_casilla_0, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 70, 30));
 
-        col_casilla_40.setBackground(new java.awt.Color(22, 22, 42));
+        col_casilla_0.setBackground(new java.awt.Color(22, 22, 42));
 
-        javax.swing.GroupLayout col_casilla_40Layout = new javax.swing.GroupLayout(col_casilla_40);
-        col_casilla_40.setLayout(col_casilla_40Layout);
-        col_casilla_40Layout.setHorizontalGroup(
-            col_casilla_40Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout col_casilla_0Layout = new javax.swing.GroupLayout(col_casilla_0);
+        col_casilla_0.setLayout(col_casilla_0Layout);
+        col_casilla_0Layout.setHorizontalGroup(
+            col_casilla_0Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 68, Short.MAX_VALUE)
         );
-        col_casilla_40Layout.setVerticalGroup(
-            col_casilla_40Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        col_casilla_0Layout.setVerticalGroup(
+            col_casilla_0Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 20, Short.MAX_VALUE)
         );
 
-        casilla_40.add(col_casilla_40, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 1, -1, -1));
+        casilla_0.add(col_casilla_0, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 1, -1, -1));
 
-        pos_j2_casilla_40.setText("i2");
-        casilla_40.add(pos_j2_casilla_40, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 20, 20));
+        pos_j2_casilla_0.setText("i2");
+        casilla_0.add(pos_j2_casilla_0, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 20, 20));
 
-        pos_j1_casilla_40.setText("i1");
-        casilla_40.add(pos_j1_casilla_40, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 20, 20));
+        pos_j1_casilla_0.setText("i1");
+        casilla_0.add(pos_j1_casilla_0, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 20, 20));
 
-        pos_j4_casilla_40.setText("i2");
-        casilla_40.add(pos_j4_casilla_40, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 20, 20));
+        pos_j4_casilla_0.setText("i2");
+        casilla_0.add(pos_j4_casilla_0, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 20, 20));
 
-        pos_j3_casilla_40.setText("i1");
-        casilla_40.add(pos_j3_casilla_40, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 20, 20));
+        pos_j3_casilla_0.setText("i1");
+        casilla_0.add(pos_j3_casilla_0, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 20, 20));
 
-        cons_4_casilla_40.setText("i2");
-        casilla_40.add(cons_4_casilla_40, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 20, 20));
+        cons_4_casilla_0.setText("i2");
+        casilla_0.add(cons_4_casilla_0, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 20, 20));
 
-        cons_3_casilla_40.setText("i1");
-        casilla_40.add(cons_3_casilla_40, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 20, 20));
+        cons_3_casilla_0.setText("i1");
+        casilla_0.add(cons_3_casilla_0, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 20, 20));
 
-        cons_1_casilla_40.setText("i1");
-        casilla_40.add(cons_1_casilla_40, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 20, 20));
+        cons_1_casilla_0.setText("i1");
+        casilla_0.add(cons_1_casilla_0, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 20, 20));
 
-        cons_2_casilla_40.setText("i2");
-        casilla_40.add(cons_2_casilla_40, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 20, 20));
+        cons_2_casilla_0.setText("i2");
+        casilla_0.add(cons_2_casilla_0, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 20, 20));
 
-        jPanel1.add(casilla_40, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 810, 170, 170));
+        jPanel1.add(casilla_0, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 810, 170, 170));
 
         casilla_39.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_39.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -1468,6 +1494,7 @@ public class Ventana extends javax.swing.JFrame {
         casilla_19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        nom_casilla_19.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         nom_casilla_19.setText("jLabel1");
         casilla_19.add(nom_casilla_19, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 0, 30, 70));
 
@@ -2362,10 +2389,151 @@ public class Ventana extends javax.swing.JFrame {
         logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/LOGO.jpeg"))); // NOI18N
         jPanel1.add(logo, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 180, 630, 630));
 
+        controlPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        continuarB.setFont(new java.awt.Font("Calibri", 0, 36)); // NOI18N
+        continuarB.setText("CONTINUAR");
+        continuarB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                continuarBActionPerformed(evt);
+            }
+        });
+        controlPanel.add(continuarB, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 40, -1, 50));
+
+        nuevaPartidaB.setFont(new java.awt.Font("Calibri", 0, 36)); // NOI18N
+        nuevaPartidaB.setText("NUEVA PARTIDA");
+        nuevaPartidaB.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                nuevaPartidaBMouseClicked(evt);
+            }
+        });
+        nuevaPartidaB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                nuevaPartidaBActionPerformed(evt);
+            }
+        });
+        controlPanel.add(nuevaPartidaB, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, -1, -1));
+
+        nuevaPartidaBJ2.setFont(new java.awt.Font("Calibri", 0, 24)); // NOI18N
+        nuevaPartidaBJ2.setText("2 Jugadores");
+        nuevaPartidaBJ2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                nuevaPartidaBJ2ActionPerformed(evt);
+            }
+        });
+        controlPanel.add(nuevaPartidaBJ2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 110, -1, 50));
+
+        nuevaPartidaBJ1.setFont(new java.awt.Font("Calibri", 0, 24)); // NOI18N
+        nuevaPartidaBJ1.setText("1 Jugador");
+        nuevaPartidaBJ1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                nuevaPartidaBJ1ActionPerformed(evt);
+            }
+        });
+        controlPanel.add(nuevaPartidaBJ1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, -1, 50));
+
+        nuevaPartidaBJ3.setFont(new java.awt.Font("Calibri", 0, 24)); // NOI18N
+        nuevaPartidaBJ3.setText("3 Jugadores");
+        nuevaPartidaBJ3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                nuevaPartidaBJ3ActionPerformed(evt);
+            }
+        });
+        controlPanel.add(nuevaPartidaBJ3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 110, -1, 50));
+
+        nuevaPartidaBJ4.setFont(new java.awt.Font("Calibri", 0, 24)); // NOI18N
+        nuevaPartidaBJ4.setText("4 Jugadores");
+        nuevaPartidaBJ4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                nuevaPartidaBJ4ActionPerformed(evt);
+            }
+        });
+        controlPanel.add(nuevaPartidaBJ4, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 110, -1, 50));
+
+        numJugadoresL.setFont(new java.awt.Font("Calibri", 0, 36)); // NOI18N
+        numJugadoresL.setText("¿Cuantos van a jugar?");
+        controlPanel.add(numJugadoresL, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 50, -1, -1));
+
+        jPanel1.add(controlPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 0, 750, 910));
+
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1900, 1000));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void continuarBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_continuarBActionPerformed
+        nuevaPartidaBJ2.setVisible(true);
+        nuevaPartidaBJ1.setVisible(true);
+        nuevaPartidaBJ3.setVisible(true);
+        nuevaPartidaBJ4.setVisible(true);
+        nuevaPartidaB.setVisible(false);
+        continuarB.setVisible(false);
+    }//GEN-LAST:event_continuarBActionPerformed
+
+    private void nuevaPartidaBJ2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevaPartidaBJ2ActionPerformed
+        creaJugadores(2);
+        nuevaPartidaBJ2.setVisible(false);
+        nuevaPartidaBJ1.setVisible(false);
+        nuevaPartidaBJ3.setVisible(false);
+        nuevaPartidaBJ4.setVisible(false);
+        numJugadoresL.setVisible(false);
+    }//GEN-LAST:event_nuevaPartidaBJ2ActionPerformed
+
+    private void nuevaPartidaBJ1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevaPartidaBJ1ActionPerformed
+        creaJugadores(1);
+        nuevaPartidaBJ2.setVisible(false);
+        nuevaPartidaBJ1.setVisible(false);
+        nuevaPartidaBJ3.setVisible(false);
+        nuevaPartidaBJ4.setVisible(false);
+        numJugadoresL.setVisible(false);
+        try {
+            prueba();
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Ventana.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }//GEN-LAST:event_nuevaPartidaBJ1ActionPerformed
+
+    private void nuevaPartidaBJ3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevaPartidaBJ3ActionPerformed
+        creaJugadores(3);
+        nuevaPartidaBJ2.setVisible(false);
+        nuevaPartidaBJ1.setVisible(false);
+        nuevaPartidaBJ3.setVisible(false);
+        nuevaPartidaBJ4.setVisible(false);
+        numJugadoresL.setVisible(false);
+        try {
+            prueba();
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Ventana.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }//GEN-LAST:event_nuevaPartidaBJ3ActionPerformed
+
+    private void nuevaPartidaBJ4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevaPartidaBJ4ActionPerformed
+        creaJugadores(4);
+        nuevaPartidaBJ2.setVisible(false);
+        nuevaPartidaBJ1.setVisible(false);
+        nuevaPartidaBJ3.setVisible(false);
+        nuevaPartidaBJ4.setVisible(false);
+        numJugadoresL.setVisible(false);
+        try {
+            prueba();
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Ventana.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }//GEN-LAST:event_nuevaPartidaBJ4ActionPerformed
+
+    private void nuevaPartidaBMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nuevaPartidaBMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_nuevaPartidaBMouseClicked
+
+    private void nuevaPartidaBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevaPartidaBActionPerformed
+        nuevaPartidaB.setVisible(false);
+        continuarB.setVisible(false);
+        numJugadoresL.setVisible(true);
+        nuevaPartidaBJ2.setVisible(true);
+        nuevaPartidaBJ1.setVisible(true);
+        nuevaPartidaBJ3.setVisible(true);
+        nuevaPartidaBJ4.setVisible(true);
+    }//GEN-LAST:event_nuevaPartidaBActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2403,6 +2571,7 @@ public class Ventana extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel casilla_0;
     private javax.swing.JPanel casilla_1;
     private javax.swing.JPanel casilla_10;
     private javax.swing.JPanel casilla_11;
@@ -2437,12 +2606,12 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JPanel casilla_38;
     private javax.swing.JPanel casilla_39;
     private javax.swing.JPanel casilla_4;
-    private javax.swing.JPanel casilla_40;
     private javax.swing.JPanel casilla_5;
     private javax.swing.JPanel casilla_6;
     private javax.swing.JPanel casilla_7;
     private javax.swing.JPanel casilla_8;
     private javax.swing.JPanel casilla_9;
+    private javax.swing.JPanel col_casilla_0;
     private javax.swing.JPanel col_casilla_1;
     private javax.swing.JPanel col_casilla_10;
     private javax.swing.JPanel col_casilla_11;
@@ -2477,12 +2646,12 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JPanel col_casilla_38;
     private javax.swing.JPanel col_casilla_39;
     private javax.swing.JPanel col_casilla_4;
-    private javax.swing.JPanel col_casilla_40;
     private javax.swing.JPanel col_casilla_5;
     private javax.swing.JPanel col_casilla_6;
     private javax.swing.JPanel col_casilla_7;
     private javax.swing.JPanel col_casilla_8;
     private javax.swing.JPanel col_casilla_9;
+    private javax.swing.JLabel cons_1_casilla_0;
     private javax.swing.JLabel cons_1_casilla_1;
     private javax.swing.JLabel cons_1_casilla_10;
     private javax.swing.JLabel cons_1_casilla_11;
@@ -2517,12 +2686,12 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel cons_1_casilla_38;
     private javax.swing.JLabel cons_1_casilla_39;
     private javax.swing.JLabel cons_1_casilla_4;
-    private javax.swing.JLabel cons_1_casilla_40;
     private javax.swing.JLabel cons_1_casilla_5;
     private javax.swing.JLabel cons_1_casilla_6;
     private javax.swing.JLabel cons_1_casilla_7;
     private javax.swing.JLabel cons_1_casilla_8;
     private javax.swing.JLabel cons_1_casilla_9;
+    private javax.swing.JLabel cons_2_casilla_0;
     private javax.swing.JLabel cons_2_casilla_1;
     private javax.swing.JLabel cons_2_casilla_10;
     private javax.swing.JLabel cons_2_casilla_11;
@@ -2557,12 +2726,12 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel cons_2_casilla_38;
     private javax.swing.JLabel cons_2_casilla_39;
     private javax.swing.JLabel cons_2_casilla_4;
-    private javax.swing.JLabel cons_2_casilla_40;
     private javax.swing.JLabel cons_2_casilla_5;
     private javax.swing.JLabel cons_2_casilla_6;
     private javax.swing.JLabel cons_2_casilla_7;
     private javax.swing.JLabel cons_2_casilla_8;
     private javax.swing.JLabel cons_2_casilla_9;
+    private javax.swing.JLabel cons_3_casilla_0;
     private javax.swing.JLabel cons_3_casilla_1;
     private javax.swing.JLabel cons_3_casilla_10;
     private javax.swing.JLabel cons_3_casilla_11;
@@ -2597,12 +2766,12 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel cons_3_casilla_38;
     private javax.swing.JLabel cons_3_casilla_39;
     private javax.swing.JLabel cons_3_casilla_4;
-    private javax.swing.JLabel cons_3_casilla_40;
     private javax.swing.JLabel cons_3_casilla_5;
     private javax.swing.JLabel cons_3_casilla_6;
     private javax.swing.JLabel cons_3_casilla_7;
     private javax.swing.JLabel cons_3_casilla_8;
     private javax.swing.JLabel cons_3_casilla_9;
+    private javax.swing.JLabel cons_4_casilla_0;
     private javax.swing.JLabel cons_4_casilla_1;
     private javax.swing.JLabel cons_4_casilla_10;
     private javax.swing.JLabel cons_4_casilla_11;
@@ -2637,14 +2806,16 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel cons_4_casilla_38;
     private javax.swing.JLabel cons_4_casilla_39;
     private javax.swing.JLabel cons_4_casilla_4;
-    private javax.swing.JLabel cons_4_casilla_40;
     private javax.swing.JLabel cons_4_casilla_5;
     private javax.swing.JLabel cons_4_casilla_6;
     private javax.swing.JLabel cons_4_casilla_7;
     private javax.swing.JLabel cons_4_casilla_8;
     private javax.swing.JLabel cons_4_casilla_9;
+    private javax.swing.JButton continuarB;
+    private javax.swing.JPanel controlPanel;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel logo;
+    private javax.swing.JLabel nom_casilla_0;
     private javax.swing.JLabel nom_casilla_1;
     private javax.swing.JLabel nom_casilla_10;
     private javax.swing.JLabel nom_casilla_11;
@@ -2679,13 +2850,19 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel nom_casilla_38;
     private javax.swing.JLabel nom_casilla_39;
     private javax.swing.JLabel nom_casilla_4;
-    private javax.swing.JLabel nom_casilla_40;
     private javax.swing.JLabel nom_casilla_5;
     private javax.swing.JLabel nom_casilla_6;
     private javax.swing.JLabel nom_casilla_7;
     private javax.swing.JLabel nom_casilla_8;
     private javax.swing.JLabel nom_casilla_9;
-    private javax.swing.JLabel pos_j1_casilla_1;
+    private javax.swing.JButton nuevaPartidaB;
+    private javax.swing.JButton nuevaPartidaBJ1;
+    private javax.swing.JButton nuevaPartidaBJ2;
+    private javax.swing.JButton nuevaPartidaBJ3;
+    private javax.swing.JButton nuevaPartidaBJ4;
+    private javax.swing.JLabel numJugadoresL;
+    public javax.swing.JLabel pos_j1_casilla_0;
+    public javax.swing.JLabel pos_j1_casilla_1;
     private javax.swing.JLabel pos_j1_casilla_10;
     private javax.swing.JLabel pos_j1_casilla_11;
     private javax.swing.JLabel pos_j1_casilla_12;
@@ -2719,12 +2896,12 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel pos_j1_casilla_38;
     private javax.swing.JLabel pos_j1_casilla_39;
     private javax.swing.JLabel pos_j1_casilla_4;
-    private javax.swing.JLabel pos_j1_casilla_40;
     private javax.swing.JLabel pos_j1_casilla_5;
     private javax.swing.JLabel pos_j1_casilla_6;
     private javax.swing.JLabel pos_j1_casilla_7;
     private javax.swing.JLabel pos_j1_casilla_8;
     private javax.swing.JLabel pos_j1_casilla_9;
+    private javax.swing.JLabel pos_j2_casilla_0;
     private javax.swing.JLabel pos_j2_casilla_1;
     private javax.swing.JLabel pos_j2_casilla_10;
     private javax.swing.JLabel pos_j2_casilla_11;
@@ -2759,12 +2936,12 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel pos_j2_casilla_38;
     private javax.swing.JLabel pos_j2_casilla_39;
     private javax.swing.JLabel pos_j2_casilla_4;
-    private javax.swing.JLabel pos_j2_casilla_40;
     private javax.swing.JLabel pos_j2_casilla_5;
     private javax.swing.JLabel pos_j2_casilla_6;
     private javax.swing.JLabel pos_j2_casilla_7;
     private javax.swing.JLabel pos_j2_casilla_8;
     private javax.swing.JLabel pos_j2_casilla_9;
+    private javax.swing.JLabel pos_j3_casilla_0;
     private javax.swing.JLabel pos_j3_casilla_1;
     private javax.swing.JLabel pos_j3_casilla_10;
     private javax.swing.JLabel pos_j3_casilla_11;
@@ -2799,12 +2976,12 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel pos_j3_casilla_38;
     private javax.swing.JLabel pos_j3_casilla_39;
     private javax.swing.JLabel pos_j3_casilla_4;
-    private javax.swing.JLabel pos_j3_casilla_40;
     private javax.swing.JLabel pos_j3_casilla_5;
     private javax.swing.JLabel pos_j3_casilla_6;
     private javax.swing.JLabel pos_j3_casilla_7;
     private javax.swing.JLabel pos_j3_casilla_8;
     private javax.swing.JLabel pos_j3_casilla_9;
+    private javax.swing.JLabel pos_j4_casilla_0;
     private javax.swing.JLabel pos_j4_casilla_1;
     private javax.swing.JLabel pos_j4_casilla_10;
     private javax.swing.JLabel pos_j4_casilla_11;
@@ -2839,11 +3016,235 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel pos_j4_casilla_38;
     private javax.swing.JLabel pos_j4_casilla_39;
     private javax.swing.JLabel pos_j4_casilla_4;
-    private javax.swing.JLabel pos_j4_casilla_40;
     private javax.swing.JLabel pos_j4_casilla_5;
     private javax.swing.JLabel pos_j4_casilla_6;
     private javax.swing.JLabel pos_j4_casilla_7;
     private javax.swing.JLabel pos_j4_casilla_8;
     private javax.swing.JLabel pos_j4_casilla_9;
     // End of variables declaration//GEN-END:variables
+public void creaJugadores(int a){
+    jugadores=new Jugador[a];
+    posJugadores=new int[a];
+    for (int i = 0; i < a; i++) {
+        Jugador b=new Jugador();
+        jugadores[i]=b;
+    }
+    for (int i = 0; i <a; i++) {
+        posJugadores[i]=jugadores[i].getPosicion();  
+    }
+    switch(a){
+        case 1:elMalditoIniciadorLabelsJ1(); repPosJ1[0].setIcon(imagenJugador1);break;
+        case 2:elMalditoIniciadorLabelsJ1(); elMalditoIniciadorLabelsJ2();repPosJ1[0].setIcon(imagenJugador1);repPosJ2[0].setIcon(imagenJugador2);break;
+        case 3:elMalditoIniciadorLabelsJ1(); elMalditoIniciadorLabelsJ2(); elMalditoIniciadorLabelsJ3();repPosJ1[0].setIcon(imagenJugador1);repPosJ2[0].setIcon(imagenJugador2);repPosJ3[0].setIcon(imagenJugador3);break;
+        case 4:elMalditoIniciadorLabelsJ1(); elMalditoIniciadorLabelsJ2(); elMalditoIniciadorLabelsJ3(); elMalditoIniciadorLabelsJ4();repPosJ1[0].setIcon(imagenJugador1);repPosJ2[0].setIcon(imagenJugador2);repPosJ3[0].setIcon(imagenJugador3);repPosJ4[0].setIcon(imagenJugador4);break;
+        default: System.out.println("Cagaste, ve a creaJugadores y mira que has liado"); break;
+    }
+        
+}
+public void elMalditoIniciadorLabelsJ1(){
+    repPosJ1[0] = pos_j1_casilla_0;
+    repPosJ1[1] = pos_j1_casilla_1;
+    repPosJ1[2] = pos_j1_casilla_2;
+    repPosJ1[3] = pos_j1_casilla_3;
+    repPosJ1[4] = pos_j1_casilla_4;
+    repPosJ1[5] = pos_j1_casilla_5;
+    repPosJ1[6] = pos_j1_casilla_6;
+    repPosJ1[7] = pos_j1_casilla_7;
+    repPosJ1[8] = pos_j1_casilla_8;
+    repPosJ1[9] = pos_j1_casilla_9;
+    repPosJ1[10] = pos_j1_casilla_10;
+    repPosJ1[11] = pos_j1_casilla_11;
+    repPosJ1[12] = pos_j1_casilla_12;
+    repPosJ1[13] = pos_j1_casilla_13;
+    repPosJ1[14] = pos_j1_casilla_14;
+    repPosJ1[15] = pos_j1_casilla_15;
+    repPosJ1[16] = pos_j1_casilla_16;
+    repPosJ1[17] = pos_j1_casilla_17;
+    repPosJ1[18] = pos_j1_casilla_18;
+    repPosJ1[19] = pos_j1_casilla_19;
+    repPosJ1[20] = pos_j1_casilla_20;
+    repPosJ1[21] = pos_j1_casilla_21;
+    repPosJ1[22] = pos_j1_casilla_22;
+    repPosJ1[23] = pos_j1_casilla_23;
+    repPosJ1[24] = pos_j1_casilla_24;
+    repPosJ1[25] = pos_j1_casilla_25;
+    repPosJ1[26] = pos_j1_casilla_26;
+    repPosJ1[27] = pos_j1_casilla_27;
+    repPosJ1[28] = pos_j1_casilla_28;
+    repPosJ1[29] = pos_j1_casilla_29;
+    repPosJ1[30] = pos_j1_casilla_30;
+    repPosJ1[31] = pos_j1_casilla_31;
+    repPosJ1[32] = pos_j1_casilla_32;
+    repPosJ1[33] = pos_j1_casilla_33;
+    repPosJ1[34] = pos_j1_casilla_34;
+    repPosJ1[35] = pos_j1_casilla_35;
+    repPosJ1[36] = pos_j1_casilla_36;
+    repPosJ1[37] = pos_j1_casilla_37;
+    repPosJ1[38] = pos_j1_casilla_38;
+    repPosJ1[39] = pos_j1_casilla_39;
+}
+public void elMalditoIniciadorLabelsJ2(){
+    repPosJ2[0] = pos_j2_casilla_0;
+    repPosJ2[1] = pos_j2_casilla_1;
+    repPosJ2[2] = pos_j2_casilla_2;
+    repPosJ2[3] = pos_j2_casilla_3;
+    repPosJ2[4] = pos_j2_casilla_4;
+    repPosJ2[5] = pos_j2_casilla_5;
+    repPosJ2[6] = pos_j2_casilla_6;
+    repPosJ2[7] = pos_j2_casilla_7;
+    repPosJ2[8] = pos_j2_casilla_8;
+    repPosJ2[9] = pos_j2_casilla_9;
+    repPosJ2[10] = pos_j2_casilla_10;
+    repPosJ2[11] = pos_j2_casilla_11;
+    repPosJ2[12] = pos_j2_casilla_12;
+    repPosJ2[13] = pos_j2_casilla_13;
+    repPosJ2[14] = pos_j2_casilla_14;
+    repPosJ2[15] = pos_j2_casilla_15;
+    repPosJ2[16] = pos_j2_casilla_16;
+    repPosJ2[17] = pos_j2_casilla_17;
+    repPosJ2[18] = pos_j2_casilla_18;
+    repPosJ2[19] = pos_j2_casilla_19;
+    repPosJ2[20] = pos_j2_casilla_20;
+    repPosJ2[21] = pos_j2_casilla_21;
+    repPosJ2[22] = pos_j2_casilla_22;
+    repPosJ2[23] = pos_j2_casilla_23;
+    repPosJ2[24] = pos_j2_casilla_24;
+    repPosJ2[25] = pos_j2_casilla_25;
+    repPosJ2[26] = pos_j2_casilla_26;
+    repPosJ2[27] = pos_j2_casilla_27;
+    repPosJ2[28] = pos_j2_casilla_28;
+    repPosJ2[29] = pos_j2_casilla_29;
+    repPosJ2[30] = pos_j2_casilla_30;
+    repPosJ2[31] = pos_j2_casilla_31;
+    repPosJ2[32] = pos_j2_casilla_32;
+    repPosJ2[33] = pos_j2_casilla_33;
+    repPosJ2[34] = pos_j2_casilla_34;
+    repPosJ2[35] = pos_j2_casilla_35;
+    repPosJ2[36] = pos_j2_casilla_36;
+    repPosJ2[37] = pos_j2_casilla_37;
+    repPosJ2[38] = pos_j2_casilla_38;
+    repPosJ2[39] = pos_j2_casilla_39;    
+}
+public void elMalditoIniciadorLabelsJ3(){
+    repPosJ3[0] = pos_j3_casilla_0;
+    repPosJ3[1] = pos_j3_casilla_1;
+    repPosJ3[2] = pos_j3_casilla_2;
+    repPosJ3[3] = pos_j3_casilla_3;
+    repPosJ3[4] = pos_j3_casilla_4;
+    repPosJ3[5] = pos_j3_casilla_5;
+    repPosJ3[6] = pos_j3_casilla_6;
+    repPosJ3[7] = pos_j3_casilla_7;
+    repPosJ3[8] = pos_j3_casilla_8;
+    repPosJ3[9] = pos_j3_casilla_9;
+    repPosJ3[10] = pos_j3_casilla_10;
+    repPosJ3[11] = pos_j3_casilla_11;
+    repPosJ3[12] = pos_j3_casilla_12;
+    repPosJ3[13] = pos_j3_casilla_13;
+    repPosJ3[14] = pos_j3_casilla_14;
+    repPosJ3[15] = pos_j3_casilla_15;
+    repPosJ3[16] = pos_j3_casilla_16;
+    repPosJ3[17] = pos_j3_casilla_17;
+    repPosJ3[18] = pos_j3_casilla_18;
+    repPosJ3[19] = pos_j3_casilla_19;
+    repPosJ3[20] = pos_j3_casilla_20;
+    repPosJ3[21] = pos_j3_casilla_21;
+    repPosJ3[22] = pos_j3_casilla_22;
+    repPosJ3[23] = pos_j3_casilla_23;
+    repPosJ3[24] = pos_j3_casilla_24;
+    repPosJ3[25] = pos_j3_casilla_25;
+    repPosJ3[26] = pos_j3_casilla_26;
+    repPosJ3[27] = pos_j3_casilla_27;
+    repPosJ3[28] = pos_j3_casilla_28;
+    repPosJ3[29] = pos_j3_casilla_29;
+    repPosJ3[30] = pos_j3_casilla_30;
+    repPosJ3[31] = pos_j3_casilla_31;
+    repPosJ3[32] = pos_j3_casilla_32;
+    repPosJ3[33] = pos_j3_casilla_33;
+    repPosJ3[34] = pos_j3_casilla_34;
+    repPosJ3[35] = pos_j3_casilla_35;
+    repPosJ3[36] = pos_j3_casilla_36;
+    repPosJ3[37] = pos_j3_casilla_37;
+    repPosJ3[38] = pos_j3_casilla_38;
+    repPosJ3[39] = pos_j3_casilla_39;
+
+}
+public void elMalditoIniciadorLabelsJ4(){
+    repPosJ4[0] = pos_j4_casilla_0;
+    repPosJ4[1] = pos_j4_casilla_1;
+    repPosJ4[2] = pos_j4_casilla_2;
+    repPosJ4[3] = pos_j4_casilla_3;
+    repPosJ4[4] = pos_j4_casilla_4;
+    repPosJ4[5] = pos_j4_casilla_5;
+    repPosJ4[6] = pos_j4_casilla_6;
+    repPosJ4[7] = pos_j4_casilla_7;
+    repPosJ4[8] = pos_j4_casilla_8;
+    repPosJ4[9] = pos_j4_casilla_9;
+    repPosJ4[10] = pos_j4_casilla_10;
+    repPosJ4[11] = pos_j4_casilla_11;
+    repPosJ4[12] = pos_j4_casilla_12;
+    repPosJ4[13] = pos_j4_casilla_13;
+    repPosJ4[14] = pos_j4_casilla_14;
+    repPosJ4[15] = pos_j4_casilla_15;
+    repPosJ4[16] = pos_j4_casilla_16;
+    repPosJ4[17] = pos_j4_casilla_17;
+    repPosJ4[18] = pos_j4_casilla_18;
+    repPosJ4[19] = pos_j4_casilla_19;
+    repPosJ4[20] = pos_j4_casilla_20;
+    repPosJ4[21] = pos_j4_casilla_21;
+    repPosJ4[22] = pos_j4_casilla_22;
+    repPosJ4[23] = pos_j4_casilla_23;
+    repPosJ4[24] = pos_j4_casilla_24;
+    repPosJ4[25] = pos_j4_casilla_25;
+    repPosJ4[26] = pos_j4_casilla_26;
+    repPosJ4[27] = pos_j4_casilla_27;
+    repPosJ4[28] = pos_j4_casilla_28;
+    repPosJ4[29] = pos_j4_casilla_29;
+    repPosJ4[30] = pos_j4_casilla_30;
+    repPosJ4[31] = pos_j4_casilla_31;
+    repPosJ4[32] = pos_j4_casilla_32;
+    repPosJ4[33] = pos_j4_casilla_33;
+    repPosJ4[34] = pos_j4_casilla_34;
+    repPosJ4[35] = pos_j4_casilla_35;
+    repPosJ4[36] = pos_j4_casilla_36;
+    repPosJ4[37] = pos_j4_casilla_37;
+    repPosJ4[38] = pos_j4_casilla_38;
+    repPosJ4[39] = pos_j4_casilla_39;
+}
+public void movimientoJugador(int jugador, int movimiento) throws InterruptedException{
+    jugador=jugador-1;
+    int pA=jugadores[jugador].getPosicion();
+    int nP;
+    if(pA+movimiento>=40) nP=(pA+movimiento)-40;
+    else nP=pA+movimiento;
+    switch (jugador){
+        case 0:
+            repPosJ1[pA].setIcon(null);
+            repPosJ1[nP].setIcon(imagenJugador1);
+            jugadores[jugador].setPosicion(nP);
+            break;
+        case 1:
+            repPosJ2[pA].setIcon(null);
+            repPosJ2[nP].setIcon(imagenJugador2);
+            jugadores[jugador].setPosicion(nP);
+            break;
+        case 2:
+            repPosJ3[pA].setIcon(null);
+            repPosJ3[nP].setIcon(imagenJugador3);
+            jugadores[jugador].setPosicion(nP);
+            break;
+        case 3:
+            repPosJ4[pA].setIcon(null);
+            repPosJ4[nP].setIcon(imagenJugador4);
+            jugadores[jugador].setPosicion(nP);
+            break;    
+    }
+
+    
+}
+public void prueba() throws InterruptedException{
+    movimientoJugador(4,39);
+    movimientoJugador(3,5);
+    movimientoJugador(2,9);
+    movimientoJugador(1,12);
+}
 }
