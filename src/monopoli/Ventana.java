@@ -4,10 +4,6 @@
  */
 package monopoli;
 
-import java.awt.Component;
-import java.awt.Container;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 
@@ -15,7 +11,7 @@ import javax.swing.JLabel;
 
 
 
-public class Ventana extends javax.swing.JFrame {   
+public class Ventana extends javax.swing.JFrame {  
     JLabel[] repPosJ1=new JLabel[40];
     JLabel[] repPosJ2=new JLabel[40];
     JLabel[] repPosJ3=new JLabel[40];
@@ -24,6 +20,15 @@ public class Ventana extends javax.swing.JFrame {
     ImageIcon imagenJugador2 = new ImageIcon(getClass().getResource("/policia2.png"));
     ImageIcon imagenJugador3 = new ImageIcon(getClass().getResource("/zapato2.png"));
     ImageIcon imagenJugador4 = new ImageIcon(getClass().getResource("/platano2.png"));
+    ImageIcon dE1 = new ImageIcon(getClass().getResource("/2dado1.png"));
+    ImageIcon dE2 = new ImageIcon(getClass().getResource("/2dado2.png"));
+    ImageIcon dE3 = new ImageIcon(getClass().getResource("/2dado3.png"));
+    ImageIcon dE4 = new ImageIcon(getClass().getResource("/2dado4.png"));
+    ImageIcon dE5 = new ImageIcon(getClass().getResource("/2dado5.png"));
+    ImageIcon dE6 = new ImageIcon(getClass().getResource("/2dado6.png"));
+    
+    
+    
     public Jugador[] jugadores;
     public int posJugadores[];
     public Ventana() {
@@ -33,6 +38,10 @@ public class Ventana extends javax.swing.JFrame {
         nuevaPartidaBJ3.setVisible(false);
         nuevaPartidaBJ4.setVisible(false);
         numJugadoresL.setVisible(false);
+        dado1L.setVisible(false);
+        dado2L.setVisible(false);
+        tirarDadosB.setVisible(false);
+        imagenJugadorL.setVisible(false);
     }
 
     /**
@@ -494,6 +503,10 @@ public class Ventana extends javax.swing.JFrame {
         nuevaPartidaBJ3 = new javax.swing.JButton();
         nuevaPartidaBJ4 = new javax.swing.JButton();
         numJugadoresL = new javax.swing.JLabel();
+        dado1L = new javax.swing.JLabel();
+        dado2L = new javax.swing.JLabel();
+        tirarDadosB = new javax.swing.JButton();
+        imagenJugadorL = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -2454,6 +2467,30 @@ public class Ventana extends javax.swing.JFrame {
         numJugadoresL.setText("¿Cuantos van a jugar?");
         controlPanel.add(numJugadoresL, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 50, -1, -1));
 
+        dado1L.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        controlPanel.add(dado1L, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 10, 224, 224));
+
+        dado2L.setIcon(new javax.swing.ImageIcon(getClass().getResource("/2dado1.png"))); // NOI18N
+        dado2L.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        controlPanel.add(dado2L, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 10, -1, -1));
+
+        tirarDadosB.setFont(new java.awt.Font("Calibri", 0, 36)); // NOI18N
+        tirarDadosB.setText("Tirar Dados");
+        tirarDadosB.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tirarDadosBMouseClicked(evt);
+            }
+        });
+        tirarDadosB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tirarDadosBActionPerformed(evt);
+            }
+        });
+        controlPanel.add(tirarDadosB, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 250, -1, -1));
+
+        imagenJugadorL.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        controlPanel.add(imagenJugadorL, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 220, 220));
+
         jPanel1.add(controlPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 0, 750, 910));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1900, 1000));
@@ -2468,6 +2505,11 @@ public class Ventana extends javax.swing.JFrame {
         nuevaPartidaBJ4.setVisible(true);
         nuevaPartidaB.setVisible(false);
         continuarB.setVisible(false);
+        dado1L.setVisible(true);
+        dado2L.setVisible(true);
+        tirarDadosB.setVisible(true);
+        imagenJugadorL.setVisible(true);
+    
     }//GEN-LAST:event_continuarBActionPerformed
 
     private void nuevaPartidaBJ2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevaPartidaBJ2ActionPerformed
@@ -2477,6 +2519,10 @@ public class Ventana extends javax.swing.JFrame {
         nuevaPartidaBJ3.setVisible(false);
         nuevaPartidaBJ4.setVisible(false);
         numJugadoresL.setVisible(false);
+        dado1L.setVisible(true);
+        dado2L.setVisible(true);
+        tirarDadosB.setVisible(true);
+        imagenJugadorL.setVisible(true);
     }//GEN-LAST:event_nuevaPartidaBJ2ActionPerformed
 
     private void nuevaPartidaBJ1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevaPartidaBJ1ActionPerformed
@@ -2486,11 +2532,10 @@ public class Ventana extends javax.swing.JFrame {
         nuevaPartidaBJ3.setVisible(false);
         nuevaPartidaBJ4.setVisible(false);
         numJugadoresL.setVisible(false);
-        try {
-            prueba();
-        } catch (InterruptedException ex) {
-            Logger.getLogger(Ventana.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        dado1L.setVisible(true);
+        dado2L.setVisible(true);
+        tirarDadosB.setVisible(true);
+        imagenJugadorL.setVisible(true);
     }//GEN-LAST:event_nuevaPartidaBJ1ActionPerformed
 
     private void nuevaPartidaBJ3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevaPartidaBJ3ActionPerformed
@@ -2500,11 +2545,10 @@ public class Ventana extends javax.swing.JFrame {
         nuevaPartidaBJ3.setVisible(false);
         nuevaPartidaBJ4.setVisible(false);
         numJugadoresL.setVisible(false);
-        try {
-            prueba();
-        } catch (InterruptedException ex) {
-            Logger.getLogger(Ventana.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        dado1L.setVisible(true);
+        dado2L.setVisible(true);
+        tirarDadosB.setVisible(true);
+        imagenJugadorL.setVisible(true);
     }//GEN-LAST:event_nuevaPartidaBJ3ActionPerformed
 
     private void nuevaPartidaBJ4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevaPartidaBJ4ActionPerformed
@@ -2514,11 +2558,10 @@ public class Ventana extends javax.swing.JFrame {
         nuevaPartidaBJ3.setVisible(false);
         nuevaPartidaBJ4.setVisible(false);
         numJugadoresL.setVisible(false);
-        try {
-            prueba();
-        } catch (InterruptedException ex) {
-            Logger.getLogger(Ventana.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        dado1L.setVisible(true);
+        dado2L.setVisible(true);
+        tirarDadosB.setVisible(true);
+        imagenJugadorL.setVisible(true);
     }//GEN-LAST:event_nuevaPartidaBJ4ActionPerformed
 
     private void nuevaPartidaBMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nuevaPartidaBMouseClicked
@@ -2534,6 +2577,15 @@ public class Ventana extends javax.swing.JFrame {
         nuevaPartidaBJ3.setVisible(true);
         nuevaPartidaBJ4.setVisible(true);
     }//GEN-LAST:event_nuevaPartidaBActionPerformed
+
+    private void tirarDadosBMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tirarDadosBMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tirarDadosBMouseClicked
+
+    private void tirarDadosBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tirarDadosBActionPerformed
+        int mov =tirarDados();
+        System.out.println("mov:" + mov);
+    }//GEN-LAST:event_tirarDadosBActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2813,6 +2865,9 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel cons_4_casilla_9;
     private javax.swing.JButton continuarB;
     private javax.swing.JPanel controlPanel;
+    private javax.swing.JLabel dado1L;
+    private javax.swing.JLabel dado2L;
+    private javax.swing.JLabel imagenJugadorL;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel logo;
     private javax.swing.JLabel nom_casilla_0;
@@ -3021,6 +3076,7 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel pos_j4_casilla_7;
     private javax.swing.JLabel pos_j4_casilla_8;
     private javax.swing.JLabel pos_j4_casilla_9;
+    private javax.swing.JButton tirarDadosB;
     // End of variables declaration//GEN-END:variables
 public void creaJugadores(int a){
     jugadores=new Jugador[a];
@@ -3237,14 +3293,35 @@ public void movimientoJugador(int jugador, int movimiento) throws InterruptedExc
             repPosJ4[nP].setIcon(imagenJugador4);
             jugadores[jugador].setPosicion(nP);
             break;    
-    }
-
-    
+    }   
 }
-public void prueba() throws InterruptedException{
-    movimientoJugador(4,39);
-    movimientoJugador(3,5);
-    movimientoJugador(2,9);
-    movimientoJugador(1,12);
+public int tirarDados(){
+    int dado1=(int) (Math.random()*5)+1;
+    System.out.println("Dado 1:" + dado1);
+    int dado2=(int) (Math.random()*5)+1;
+    System.out.println("Dado 2:" + dado2);
+    int mov=dado1+dado2;
+    switch(dado1){
+        case 1:  dado1L.setIcon(dE1); break;
+        case 2:  dado1L.setIcon(dE2); break;
+        case 3:  dado1L.setIcon(dE3); break;
+        case 4:  dado1L.setIcon(dE4); break;
+        case 5:  dado1L.setIcon(dE5); break;
+        case 6:  dado1L.setIcon(dE6); break;
+        default: System.out.println("La liaste en tirarDados"); break;
+    }
+    switch(dado2){
+        case 1:  dado2L.setIcon(dE1); break;
+        case 2:  dado2L.setIcon(dE2); break;
+        case 3:  dado2L.setIcon(dE3); break;
+        case 4:  dado2L.setIcon(dE4); break;
+        case 5:  dado2L.setIcon(dE5); break;
+        case 6:  dado2L.setIcon(dE6); break;
+        default: System.out.println("La liaste en tirarDados"); break;
+    }
+    return mov;
+}
+public void ejecutarJuego(){
+    
 }
 }

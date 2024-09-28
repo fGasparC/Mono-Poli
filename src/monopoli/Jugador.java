@@ -11,6 +11,7 @@ package monopoli;
 public class Jugador {
     private int dinero=1500;
     private int posicion=0;
+    
 
     public Jugador() {
         
