@@ -4,6 +4,7 @@
  */
 package monopoli;
 
+import java.util.Scanner;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 
@@ -12,10 +13,15 @@ import javax.swing.JLabel;
 
 
 public class Ventana extends javax.swing.JFrame {  
+    boolean start=false;
     JLabel[] repPosJ1=new JLabel[40];
     JLabel[] repPosJ2=new JLabel[40];
     JLabel[] repPosJ3=new JLabel[40];
     JLabel[] repPosJ4=new JLabel[40];
+    ImageIcon imagenJugador1Icon = new ImageIcon(getClass().getResource("/monoIcon.png"));
+    ImageIcon imagenJugador2Icon = new ImageIcon(getClass().getResource("/policiaIcon.png"));
+    ImageIcon imagenJugador3Icon = new ImageIcon(getClass().getResource("/zapatoIcon.png"));
+    ImageIcon imagenJugador4Icon = new ImageIcon(getClass().getResource("/platanoIcon.png"));
     ImageIcon imagenJugador1 = new ImageIcon(getClass().getResource("/mono2.png"));
     ImageIcon imagenJugador2 = new ImageIcon(getClass().getResource("/policia2.png"));
     ImageIcon imagenJugador3 = new ImageIcon(getClass().getResource("/zapato2.png"));
@@ -25,12 +31,12 @@ public class Ventana extends javax.swing.JFrame {
     ImageIcon dE3 = new ImageIcon(getClass().getResource("/2dado3.png"));
     ImageIcon dE4 = new ImageIcon(getClass().getResource("/2dado4.png"));
     ImageIcon dE5 = new ImageIcon(getClass().getResource("/2dado5.png"));
-    ImageIcon dE6 = new ImageIcon(getClass().getResource("/2dado6.png"));
+    ImageIcon dE6 = new ImageIcon(getClass().getResource("/2dado6.png")); 
+    ImageIcon[] imagenesJugadores={imagenJugador1Icon,imagenJugador2Icon,imagenJugador3Icon,imagenJugador4Icon};
+    Jugador[] jugadores;
+    int posJugadores[];
+    int turno=0;
     
-    
-    
-    public Jugador[] jugadores;
-    public int posJugadores[];
     public Ventana() {
         initComponents();
         nuevaPartidaBJ2.setVisible(false);
@@ -42,6 +48,7 @@ public class Ventana extends javax.swing.JFrame {
         dado2L.setVisible(false);
         tirarDadosB.setVisible(false);
         imagenJugadorL.setVisible(false);
+        dineroL.setVisible(false);
     }
 
     /**
@@ -507,6 +514,7 @@ public class Ventana extends javax.swing.JFrame {
         dado2L = new javax.swing.JLabel();
         tirarDadosB = new javax.swing.JButton();
         imagenJugadorL = new javax.swing.JLabel();
+        dineroL = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -2491,6 +2499,12 @@ public class Ventana extends javax.swing.JFrame {
         imagenJugadorL.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         controlPanel.add(imagenJugadorL, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 220, 220));
 
+        dineroL.setFont(new java.awt.Font("Calibri", 0, 36)); // NOI18N
+        dineroL.setForeground(new java.awt.Color(0, 204, 0));
+        dineroL.setText("jLabel1");
+        dineroL.setBorder(new javax.swing.border.MatteBorder(null));
+        controlPanel.add(dineroL, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 220, -1));
+
         jPanel1.add(controlPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 0, 750, 910));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1900, 1000));
@@ -2522,7 +2536,9 @@ public class Ventana extends javax.swing.JFrame {
         dado1L.setVisible(true);
         dado2L.setVisible(true);
         tirarDadosB.setVisible(true);
+        dineroL.setVisible(true);
         imagenJugadorL.setVisible(true);
+        cargaRecursosDefault();
     }//GEN-LAST:event_nuevaPartidaBJ2ActionPerformed
 
     private void nuevaPartidaBJ1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevaPartidaBJ1ActionPerformed
@@ -2532,10 +2548,12 @@ public class Ventana extends javax.swing.JFrame {
         nuevaPartidaBJ3.setVisible(false);
         nuevaPartidaBJ4.setVisible(false);
         numJugadoresL.setVisible(false);
+        dineroL.setVisible(true);
         dado1L.setVisible(true);
         dado2L.setVisible(true);
         tirarDadosB.setVisible(true);
         imagenJugadorL.setVisible(true);
+        cargaRecursosDefault();
     }//GEN-LAST:event_nuevaPartidaBJ1ActionPerformed
 
     private void nuevaPartidaBJ3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevaPartidaBJ3ActionPerformed
@@ -2545,10 +2563,12 @@ public class Ventana extends javax.swing.JFrame {
         nuevaPartidaBJ3.setVisible(false);
         nuevaPartidaBJ4.setVisible(false);
         numJugadoresL.setVisible(false);
+        dineroL.setVisible(true);
         dado1L.setVisible(true);
         dado2L.setVisible(true);
         tirarDadosB.setVisible(true);
         imagenJugadorL.setVisible(true);
+        cargaRecursosDefault();
     }//GEN-LAST:event_nuevaPartidaBJ3ActionPerformed
 
     private void nuevaPartidaBJ4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nuevaPartidaBJ4ActionPerformed
@@ -2558,10 +2578,13 @@ public class Ventana extends javax.swing.JFrame {
         nuevaPartidaBJ3.setVisible(false);
         nuevaPartidaBJ4.setVisible(false);
         numJugadoresL.setVisible(false);
+        dineroL.setVisible(true);
         dado1L.setVisible(true);
         dado2L.setVisible(true);
         tirarDadosB.setVisible(true);
         imagenJugadorL.setVisible(true);
+        cargaRecursosDefault();
+        
     }//GEN-LAST:event_nuevaPartidaBJ4ActionPerformed
 
     private void nuevaPartidaBMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nuevaPartidaBMouseClicked
@@ -2583,8 +2606,12 @@ public class Ventana extends javax.swing.JFrame {
     }//GEN-LAST:event_tirarDadosBMouseClicked
 
     private void tirarDadosBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tirarDadosBActionPerformed
-        int mov =tirarDados();
-        System.out.println("mov:" + mov);
+        int mov =tirarDados();  
+        int r=ejecutarJuego();     
+        System.out.println("r=" + r);
+        System.out.println("turno: "+turno);
+        movimientoJugador(r,mov);
+        turno++;
     }//GEN-LAST:event_tirarDadosBActionPerformed
 
     /**
@@ -2867,6 +2894,7 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JPanel controlPanel;
     private javax.swing.JLabel dado1L;
     private javax.swing.JLabel dado2L;
+    private javax.swing.JLabel dineroL;
     private javax.swing.JLabel imagenJugadorL;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel logo;
@@ -3084,6 +3112,7 @@ public void creaJugadores(int a){
     for (int i = 0; i < a; i++) {
         Jugador b=new Jugador();
         jugadores[i]=b;
+        jugadores[i].setImagenJugador(imagenesJugadores[i]);
     }
     for (int i = 0; i <a; i++) {
         posJugadores[i]=jugadores[i].getPosicion();  
@@ -3266,9 +3295,9 @@ public void elMalditoIniciadorLabelsJ4(){
     repPosJ4[38] = pos_j4_casilla_38;
     repPosJ4[39] = pos_j4_casilla_39;
 }
-public void movimientoJugador(int jugador, int movimiento) throws InterruptedException{
-    jugador=jugador-1;
+public void movimientoJugador(int jugador, int movimiento){
     int pA=jugadores[jugador].getPosicion();
+    System.out.println("jugadorcito= "+ jugador);
     int nP;
     if(pA+movimiento>=40) nP=(pA+movimiento)-40;
     else nP=pA+movimiento;
@@ -3297,9 +3326,9 @@ public void movimientoJugador(int jugador, int movimiento) throws InterruptedExc
 }
 public int tirarDados(){
     int dado1=(int) (Math.random()*5)+1;
-    System.out.println("Dado 1:" + dado1);
+    //System.out.println("Dado 1:" + dado1);
     int dado2=(int) (Math.random()*5)+1;
-    System.out.println("Dado 2:" + dado2);
+    //System.out.println("Dado 2:" + dado2);
     int mov=dado1+dado2;
     switch(dado1){
         case 1:  dado1L.setIcon(dE1); break;
@@ -3321,7 +3350,29 @@ public int tirarDados(){
     }
     return mov;
 }
-public void ejecutarJuego(){
+public int ejecutarJuego(){
+    int turnJ=(turno+jugadores.length)%jugadores.length;
+    int turnJCR=(1+turno+jugadores.length)%jugadores.length; 
+    dineroL.setText(jugadores[turnJCR].getDineroText());
+    imagenJugadorL.setIcon(jugadores[turnJCR].getImagenJugador());
+    jugadores[turnJ].setDinero(jugadores[turnJ].getDinero()-50);
+    return turnJ;  
+    }
+
+public void prueba(){
+    for (int i = 0; i < 10; i++) {
+        System.out.println("4 jugadores  Turno="+(i+1)+"   "+"Jugaord "+(1+(i+4)%4));
+        System.out.println("3 jugadores  Turno="+(i+1)+"   "+"Jugaord "+(1+(i+3)%3));
+        System.out.println("2 jugadores  Turno="+(i+1)+"   "+"Jugaord "+(1+(i+2)%2));
+        System.out.println("1 jugadores  Turno="+(i+1)+"   "+"Jugaord "+(1+(i+1)%1));
+        System.out.println("__________________");
+    }
+}
+public void cargaRecursosDefault(){
+    dineroL.setText(jugadores[0].getDineroText());
+    imagenJugadorL.setIcon(jugadores[0].getImagenJugador());
+}
+public void cargaRecurtsos(){
     
 }
 }

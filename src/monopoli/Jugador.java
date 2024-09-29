@@ -4,6 +4,8 @@
  */
 package monopoli;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author FG
@@ -11,6 +13,7 @@ package monopoli;
 public class Jugador {
     private int dinero=1500;
     private int posicion=0;
+    ImageIcon imagenJugador;
     
 
     public Jugador() {
@@ -31,6 +34,20 @@ public class Jugador {
 
     public void setPosicion(int posicion) {
         this.posicion = posicion;
+    }
+
+    public void setImagenJugador(ImageIcon imagenJugador) {
+        this.imagenJugador = imagenJugador;
+    }
+
+    public ImageIcon getImagenJugador() {
+        return imagenJugador;
+    }
+    
+    public String getDineroText(){
+        String dineroText="";
+        dineroText+=this.dinero;
+        return dineroText;
     }
     
 }
