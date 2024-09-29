@@ -85,7 +85,6 @@ public class Ventana extends javax.swing.JFrame {
         cons_2_casilla_39 = new javax.swing.JLabel();
         casilla_38 = new javax.swing.JPanel();
         nom_casilla_38 = new javax.swing.JLabel();
-        col_casilla_38 = new javax.swing.JPanel();
         pos_j2_casilla_38 = new javax.swing.JLabel();
         pos_j1_casilla_38 = new javax.swing.JLabel();
         pos_j4_casilla_38 = new javax.swing.JLabel();
@@ -102,14 +101,12 @@ public class Ventana extends javax.swing.JFrame {
         cons_2_casilla_37 = new javax.swing.JLabel();
         casilla_36 = new javax.swing.JPanel();
         nom_casilla_36 = new javax.swing.JLabel();
-        col_casilla_36 = new javax.swing.JPanel();
         pos_j2_casilla_36 = new javax.swing.JLabel();
         pos_j1_casilla_36 = new javax.swing.JLabel();
         pos_j4_casilla_36 = new javax.swing.JLabel();
         pos_j3_casilla_36 = new javax.swing.JLabel();
         casilla_35 = new javax.swing.JPanel();
         nom_casilla_35 = new javax.swing.JLabel();
-        col_casilla_35 = new javax.swing.JPanel();
         pos_j2_casilla_35 = new javax.swing.JLabel();
         pos_j1_casilla_35 = new javax.swing.JLabel();
         pos_j4_casilla_35 = new javax.swing.JLabel();
@@ -126,7 +123,6 @@ public class Ventana extends javax.swing.JFrame {
         cons_2_casilla_34 = new javax.swing.JLabel();
         casilla_33 = new javax.swing.JPanel();
         nom_casilla_33 = new javax.swing.JLabel();
-        col_casilla_33 = new javax.swing.JPanel();
         pos_j2_casilla_33 = new javax.swing.JLabel();
         pos_j1_casilla_33 = new javax.swing.JLabel();
         pos_j4_casilla_33 = new javax.swing.JLabel();
@@ -201,7 +197,6 @@ public class Ventana extends javax.swing.JFrame {
         cons_2_casilla_26 = new javax.swing.JLabel();
         casilla_25 = new javax.swing.JPanel();
         nom_casilla_25 = new javax.swing.JLabel();
-        col_casilla_25 = new javax.swing.JPanel();
         pos_j2_casilla_25 = new javax.swing.JLabel();
         pos_j1_casilla_25 = new javax.swing.JLabel();
         pos_j4_casilla_25 = new javax.swing.JLabel();
@@ -228,7 +223,6 @@ public class Ventana extends javax.swing.JFrame {
         cons_2_casilla_23 = new javax.swing.JLabel();
         casilla_22 = new javax.swing.JPanel();
         nom_casilla_22 = new javax.swing.JLabel();
-        col_casilla_22 = new javax.swing.JPanel();
         pos_j2_casilla_22 = new javax.swing.JLabel();
         pos_j1_casilla_22 = new javax.swing.JLabel();
         pos_j4_casilla_22 = new javax.swing.JLabel();
@@ -276,7 +270,6 @@ public class Ventana extends javax.swing.JFrame {
         cons_2_casilla_18 = new javax.swing.JLabel();
         casilla_17 = new javax.swing.JPanel();
         nom_casilla_17 = new javax.swing.JLabel();
-        col_casilla_17 = new javax.swing.JPanel();
         pos_j2_casilla_17 = new javax.swing.JLabel();
         pos_j1_casilla_17 = new javax.swing.JLabel();
         pos_j4_casilla_17 = new javax.swing.JLabel();
@@ -293,7 +286,6 @@ public class Ventana extends javax.swing.JFrame {
         cons_2_casilla_16 = new javax.swing.JLabel();
         casilla_15 = new javax.swing.JPanel();
         nom_casilla_15 = new javax.swing.JLabel();
-        col_casilla_15 = new javax.swing.JPanel();
         pos_j2_casilla_15 = new javax.swing.JLabel();
         pos_j1_casilla_15 = new javax.swing.JLabel();
         pos_j4_casilla_15 = new javax.swing.JLabel();
@@ -368,7 +360,6 @@ public class Ventana extends javax.swing.JFrame {
         cons_2_casilla_8 = new javax.swing.JLabel();
         casilla_7 = new javax.swing.JPanel();
         nom_casilla_7 = new javax.swing.JLabel();
-        col_casilla_7 = new javax.swing.JPanel();
         pos_j2_casilla_7 = new javax.swing.JLabel();
         pos_j1_casilla_7 = new javax.swing.JLabel();
         pos_j4_casilla_7 = new javax.swing.JLabel();
@@ -385,14 +376,12 @@ public class Ventana extends javax.swing.JFrame {
         cons_2_casilla_6 = new javax.swing.JLabel();
         casilla_5 = new javax.swing.JPanel();
         nom_casilla_5 = new javax.swing.JLabel();
-        col_casilla_5 = new javax.swing.JPanel();
         pos_j2_casilla_5 = new javax.swing.JLabel();
         pos_j1_casilla_5 = new javax.swing.JLabel();
         pos_j4_casilla_5 = new javax.swing.JLabel();
         pos_j3_casilla_5 = new javax.swing.JLabel();
         casilla_4 = new javax.swing.JPanel();
         nom_casilla_4 = new javax.swing.JLabel();
-        col_casilla_4 = new javax.swing.JPanel();
         pos_j2_casilla_4 = new javax.swing.JLabel();
         pos_j1_casilla_4 = new javax.swing.JLabel();
         pos_j4_casilla_4 = new javax.swing.JLabel();
@@ -409,7 +398,6 @@ public class Ventana extends javax.swing.JFrame {
         cons_2_casilla_3 = new javax.swing.JLabel();
         casilla_2 = new javax.swing.JPanel();
         nom_casilla_2 = new javax.swing.JLabel();
-        col_casilla_2 = new javax.swing.JPanel();
         pos_j2_casilla_2 = new javax.swing.JLabel();
         pos_j1_casilla_2 = new javax.swing.JLabel();
         pos_j4_casilla_2 = new javax.swing.JLabel();
@@ -528,35 +516,20 @@ public class Ventana extends javax.swing.JFrame {
         casilla_38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_38.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        nom_casilla_38.setText("jLabel1");
-        casilla_38.add(nom_casilla_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 30, 70));
-
-        col_casilla_38.setBackground(new java.awt.Color(22, 22, 42));
-
-        javax.swing.GroupLayout col_casilla_38Layout = new javax.swing.GroupLayout(col_casilla_38);
-        col_casilla_38.setLayout(col_casilla_38Layout);
-        col_casilla_38Layout.setHorizontalGroup(
-            col_casilla_38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-        col_casilla_38Layout.setVerticalGroup(
-            col_casilla_38Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 70, Short.MAX_VALUE)
-        );
-
-        casilla_38.add(col_casilla_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 20, 70));
+        nom_casilla_38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/impuestoallujo.png"))); // NOI18N
+        casilla_38.add(nom_casilla_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 70));
 
         pos_j2_casilla_38.setText("i2");
-        casilla_38.add(pos_j2_casilla_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, 20, 20));
+        casilla_38.add(pos_j2_casilla_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, 20, 20));
 
         pos_j1_casilla_38.setText("i1");
-        casilla_38.add(pos_j1_casilla_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, 20, 20));
+        casilla_38.add(pos_j1_casilla_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 10, 20, 20));
 
         pos_j4_casilla_38.setText("i2");
-        casilla_38.add(pos_j4_casilla_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, 20, 20));
+        casilla_38.add(pos_j4_casilla_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, 20, 20));
 
         pos_j3_casilla_38.setText("i1");
-        casilla_38.add(pos_j3_casilla_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 20, 20));
+        casilla_38.add(pos_j3_casilla_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 40, 20, 20));
 
         jPanel1.add(casilla_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 670, 170, 70));
 
@@ -595,70 +568,40 @@ public class Ventana extends javax.swing.JFrame {
         casilla_36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_36.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        nom_casilla_36.setText("jLabel1");
-        casilla_36.add(nom_casilla_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 30, 70));
-
-        col_casilla_36.setBackground(new java.awt.Color(22, 22, 42));
-
-        javax.swing.GroupLayout col_casilla_36Layout = new javax.swing.GroupLayout(col_casilla_36);
-        col_casilla_36.setLayout(col_casilla_36Layout);
-        col_casilla_36Layout.setHorizontalGroup(
-            col_casilla_36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-        col_casilla_36Layout.setVerticalGroup(
-            col_casilla_36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 70, Short.MAX_VALUE)
-        );
-
-        casilla_36.add(col_casilla_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 20, 70));
+        nom_casilla_36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/casillainterrogacion4.png"))); // NOI18N
+        casilla_36.add(nom_casilla_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 110, 70));
 
         pos_j2_casilla_36.setText("i2");
-        casilla_36.add(pos_j2_casilla_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, 20, 20));
+        casilla_36.add(pos_j2_casilla_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, 20, 20));
 
         pos_j1_casilla_36.setText("i1");
-        casilla_36.add(pos_j1_casilla_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, 20, 20));
+        casilla_36.add(pos_j1_casilla_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 10, 20, 20));
 
         pos_j4_casilla_36.setText("i2");
-        casilla_36.add(pos_j4_casilla_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, 20, 20));
+        casilla_36.add(pos_j4_casilla_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, 20, 20));
 
         pos_j3_casilla_36.setText("i1");
-        casilla_36.add(pos_j3_casilla_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 20, 20));
+        casilla_36.add(pos_j3_casilla_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 40, 20, 20));
 
         jPanel1.add(casilla_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 530, 170, 70));
 
         casilla_35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_35.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        nom_casilla_35.setText("jLabel1");
-        casilla_35.add(nom_casilla_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 30, 70));
-
-        col_casilla_35.setBackground(new java.awt.Color(22, 22, 42));
-
-        javax.swing.GroupLayout col_casilla_35Layout = new javax.swing.GroupLayout(col_casilla_35);
-        col_casilla_35.setLayout(col_casilla_35Layout);
-        col_casilla_35Layout.setHorizontalGroup(
-            col_casilla_35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-        col_casilla_35Layout.setVerticalGroup(
-            col_casilla_35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 70, Short.MAX_VALUE)
-        );
-
-        casilla_35.add(col_casilla_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 20, 70));
+        nom_casilla_35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/estaciontren4.png"))); // NOI18N
+        casilla_35.add(nom_casilla_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 70));
 
         pos_j2_casilla_35.setText("i2");
-        casilla_35.add(pos_j2_casilla_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, 20, 20));
+        casilla_35.add(pos_j2_casilla_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, 20, 20));
 
         pos_j1_casilla_35.setText("i1");
-        casilla_35.add(pos_j1_casilla_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, 20, 20));
+        casilla_35.add(pos_j1_casilla_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 10, 20, 20));
 
         pos_j4_casilla_35.setText("i2");
-        casilla_35.add(pos_j4_casilla_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, 20, 20));
+        casilla_35.add(pos_j4_casilla_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, 20, 20));
 
         pos_j3_casilla_35.setText("i1");
-        casilla_35.add(pos_j3_casilla_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 20, 20));
+        casilla_35.add(pos_j3_casilla_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 40, 20, 20));
 
         jPanel1.add(casilla_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 460, 170, 70));
 
@@ -697,35 +640,20 @@ public class Ventana extends javax.swing.JFrame {
         casilla_33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_33.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        nom_casilla_33.setText("jLabel1");
-        casilla_33.add(nom_casilla_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 30, 70));
-
-        col_casilla_33.setBackground(new java.awt.Color(22, 22, 42));
-
-        javax.swing.GroupLayout col_casilla_33Layout = new javax.swing.GroupLayout(col_casilla_33);
-        col_casilla_33.setLayout(col_casilla_33Layout);
-        col_casilla_33Layout.setHorizontalGroup(
-            col_casilla_33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-        col_casilla_33Layout.setVerticalGroup(
-            col_casilla_33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 70, Short.MAX_VALUE)
-        );
-
-        casilla_33.add(col_casilla_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 20, 70));
+        nom_casilla_33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/casillainterrogacion4.png"))); // NOI18N
+        casilla_33.add(nom_casilla_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 110, 70));
 
         pos_j2_casilla_33.setText("i2");
-        casilla_33.add(pos_j2_casilla_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, 20, 20));
+        casilla_33.add(pos_j2_casilla_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, 20, 20));
 
         pos_j1_casilla_33.setText("i1");
-        casilla_33.add(pos_j1_casilla_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, 20, 20));
+        casilla_33.add(pos_j1_casilla_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 10, 20, 20));
 
         pos_j4_casilla_33.setText("i2");
-        casilla_33.add(pos_j4_casilla_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, 20, 20));
+        casilla_33.add(pos_j4_casilla_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, 20, 20));
 
         pos_j3_casilla_33.setText("i1");
-        casilla_33.add(pos_j3_casilla_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 20, 20));
+        casilla_33.add(pos_j3_casilla_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 40, 20, 20));
 
         jPanel1.add(casilla_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 320, 170, 70));
 
@@ -896,16 +824,16 @@ public class Ventana extends javax.swing.JFrame {
         casilla_28.add(col_casilla_28, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 70, 20));
 
         pos_j2_casilla_28.setText("i2");
-        casilla_28.add(pos_j2_casilla_28, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, 20, 20));
+        casilla_28.add(pos_j2_casilla_28, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 20, 20));
 
         pos_j1_casilla_28.setText("i1");
-        casilla_28.add(pos_j1_casilla_28, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, 20, 20));
+        casilla_28.add(pos_j1_casilla_28, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 20, 20));
 
         pos_j4_casilla_28.setText("i2");
-        casilla_28.add(pos_j4_casilla_28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 20, 20));
+        casilla_28.add(pos_j4_casilla_28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 20, 20));
 
         pos_j3_casilla_28.setText("i1");
-        casilla_28.add(pos_j3_casilla_28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 20, 20));
+        casilla_28.add(pos_j3_casilla_28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 20, 20));
 
         jPanel1.add(casilla_28, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 10, 70, 170));
 
@@ -979,35 +907,20 @@ public class Ventana extends javax.swing.JFrame {
         casilla_25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_25.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        nom_casilla_25.setText("jLabel1");
-        casilla_25.add(nom_casilla_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 70, 30));
-
-        col_casilla_25.setBackground(new java.awt.Color(22, 22, 42));
-
-        javax.swing.GroupLayout col_casilla_25Layout = new javax.swing.GroupLayout(col_casilla_25);
-        col_casilla_25.setLayout(col_casilla_25Layout);
-        col_casilla_25Layout.setHorizontalGroup(
-            col_casilla_25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 70, Short.MAX_VALUE)
-        );
-        col_casilla_25Layout.setVerticalGroup(
-            col_casilla_25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-
-        casilla_25.add(col_casilla_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 70, 20));
+        nom_casilla_25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/estaciontren3.png"))); // NOI18N
+        casilla_25.add(nom_casilla_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 70, 110));
 
         pos_j2_casilla_25.setText("i2");
-        casilla_25.add(pos_j2_casilla_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, 20, 20));
+        casilla_25.add(pos_j2_casilla_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 20, 20));
 
         pos_j1_casilla_25.setText("i1");
-        casilla_25.add(pos_j1_casilla_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, 20, 20));
+        casilla_25.add(pos_j1_casilla_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 20, 20));
 
         pos_j4_casilla_25.setText("i2");
-        casilla_25.add(pos_j4_casilla_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 20, 20));
+        casilla_25.add(pos_j4_casilla_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 20, 20));
 
         pos_j3_casilla_25.setText("i1");
-        casilla_25.add(pos_j3_casilla_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 20, 20));
+        casilla_25.add(pos_j3_casilla_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 20, 20));
 
         jPanel1.add(casilla_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 10, 70, 170));
 
@@ -1080,35 +993,20 @@ public class Ventana extends javax.swing.JFrame {
         casilla_22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_22.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        nom_casilla_22.setText("jLabel1");
-        casilla_22.add(nom_casilla_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 70, 30));
-
-        col_casilla_22.setBackground(new java.awt.Color(22, 22, 42));
-
-        javax.swing.GroupLayout col_casilla_22Layout = new javax.swing.GroupLayout(col_casilla_22);
-        col_casilla_22.setLayout(col_casilla_22Layout);
-        col_casilla_22Layout.setHorizontalGroup(
-            col_casilla_22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 70, Short.MAX_VALUE)
-        );
-        col_casilla_22Layout.setVerticalGroup(
-            col_casilla_22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-
-        casilla_22.add(col_casilla_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 70, 20));
+        nom_casilla_22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/casillainterrogacion3.png"))); // NOI18N
+        casilla_22.add(nom_casilla_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 70, 110));
 
         pos_j2_casilla_22.setText("i2");
-        casilla_22.add(pos_j2_casilla_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, 20, 20));
+        casilla_22.add(pos_j2_casilla_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 20, 20));
 
         pos_j1_casilla_22.setText("i1");
-        casilla_22.add(pos_j1_casilla_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, 20, 20));
+        casilla_22.add(pos_j1_casilla_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 20, 20));
 
         pos_j4_casilla_22.setText("i2");
-        casilla_22.add(pos_j4_casilla_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 20, 20));
+        casilla_22.add(pos_j4_casilla_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 20, 20));
 
         pos_j3_casilla_22.setText("i1");
-        casilla_22.add(pos_j3_casilla_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 20, 20));
+        casilla_22.add(pos_j3_casilla_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 20, 20));
 
         jPanel1.add(casilla_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 10, 70, 170));
 
@@ -1262,35 +1160,20 @@ public class Ventana extends javax.swing.JFrame {
         casilla_17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        nom_casilla_17.setText("jLabel1");
-        casilla_17.add(nom_casilla_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 0, 30, 70));
-
-        col_casilla_17.setBackground(new java.awt.Color(22, 22, 42));
-
-        javax.swing.GroupLayout col_casilla_17Layout = new javax.swing.GroupLayout(col_casilla_17);
-        col_casilla_17.setLayout(col_casilla_17Layout);
-        col_casilla_17Layout.setHorizontalGroup(
-            col_casilla_17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-        col_casilla_17Layout.setVerticalGroup(
-            col_casilla_17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 70, Short.MAX_VALUE)
-        );
-
-        casilla_17.add(col_casilla_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 0, 20, 70));
+        nom_casilla_17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/casillainterrogacion2.png"))); // NOI18N
+        casilla_17.add(nom_casilla_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 0, 110, 70));
 
         pos_j2_casilla_17.setText("i2");
-        casilla_17.add(pos_j2_casilla_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, 20, 20));
+        casilla_17.add(pos_j2_casilla_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 20, 20));
 
         pos_j1_casilla_17.setText("i1");
-        casilla_17.add(pos_j1_casilla_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 10, 20, 20));
+        casilla_17.add(pos_j1_casilla_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 20, 20));
 
         pos_j4_casilla_17.setText("i2");
-        casilla_17.add(pos_j4_casilla_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 20, 20));
+        casilla_17.add(pos_j4_casilla_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 20, 20));
 
         pos_j3_casilla_17.setText("i1");
-        casilla_17.add(pos_j3_casilla_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, 20, 20));
+        casilla_17.add(pos_j3_casilla_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 20, 20));
 
         jPanel1.add(casilla_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 320, 170, 70));
 
@@ -1330,35 +1213,20 @@ public class Ventana extends javax.swing.JFrame {
         casilla_15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        nom_casilla_15.setText("jLabel1");
-        casilla_15.add(nom_casilla_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 0, 30, 70));
-
-        col_casilla_15.setBackground(new java.awt.Color(22, 22, 42));
-
-        javax.swing.GroupLayout col_casilla_15Layout = new javax.swing.GroupLayout(col_casilla_15);
-        col_casilla_15.setLayout(col_casilla_15Layout);
-        col_casilla_15Layout.setHorizontalGroup(
-            col_casilla_15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-        col_casilla_15Layout.setVerticalGroup(
-            col_casilla_15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 70, Short.MAX_VALUE)
-        );
-
-        casilla_15.add(col_casilla_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 0, 20, 70));
+        nom_casilla_15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/estaciontren2.png"))); // NOI18N
+        casilla_15.add(nom_casilla_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 0, 110, 70));
 
         pos_j2_casilla_15.setText("i2");
-        casilla_15.add(pos_j2_casilla_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, 20, 20));
+        casilla_15.add(pos_j2_casilla_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 20, 20));
 
         pos_j1_casilla_15.setText("i1");
-        casilla_15.add(pos_j1_casilla_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 10, 20, 20));
+        casilla_15.add(pos_j1_casilla_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 20, 20));
 
         pos_j4_casilla_15.setText("i2");
-        casilla_15.add(pos_j4_casilla_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 20, 20));
+        casilla_15.add(pos_j4_casilla_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 20, 20));
 
         pos_j3_casilla_15.setText("i1");
-        casilla_15.add(pos_j3_casilla_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, 20, 20));
+        casilla_15.add(pos_j3_casilla_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 20, 20));
 
         jPanel1.add(casilla_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 460, 170, 70));
 
@@ -1450,16 +1318,16 @@ public class Ventana extends javax.swing.JFrame {
         casilla_12.add(col_casilla_12, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 0, 20, 70));
 
         pos_j2_casilla_12.setText("i2");
-        casilla_12.add(pos_j2_casilla_12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, 20, 20));
+        casilla_12.add(pos_j2_casilla_12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 20, 20));
 
         pos_j1_casilla_12.setText("i1");
-        casilla_12.add(pos_j1_casilla_12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 10, 20, 20));
+        casilla_12.add(pos_j1_casilla_12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 20, 20));
 
         pos_j4_casilla_12.setText("i2");
-        casilla_12.add(pos_j4_casilla_12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 20, 20));
+        casilla_12.add(pos_j4_casilla_12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 20, 20));
 
         pos_j3_casilla_12.setText("i1");
-        casilla_12.add(pos_j3_casilla_12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, 20, 20));
+        casilla_12.add(pos_j3_casilla_12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 20, 20));
 
         jPanel1.add(casilla_12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 670, 170, 70));
 
@@ -1613,35 +1481,20 @@ public class Ventana extends javax.swing.JFrame {
         casilla_7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        nom_casilla_7.setText("jLabel1");
-        casilla_7.add(nom_casilla_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 70, 30));
-
-        col_casilla_7.setBackground(new java.awt.Color(22, 22, 42));
-
-        javax.swing.GroupLayout col_casilla_7Layout = new javax.swing.GroupLayout(col_casilla_7);
-        col_casilla_7.setLayout(col_casilla_7Layout);
-        col_casilla_7Layout.setHorizontalGroup(
-            col_casilla_7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 68, Short.MAX_VALUE)
-        );
-        col_casilla_7Layout.setVerticalGroup(
-            col_casilla_7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-
-        casilla_7.add(col_casilla_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 1, -1, -1));
+        nom_casilla_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/casillainterrogacion.png"))); // NOI18N
+        casilla_7.add(nom_casilla_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 70, 110));
 
         pos_j2_casilla_7.setText("i2");
-        casilla_7.add(pos_j2_casilla_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 20, 20));
+        casilla_7.add(pos_j2_casilla_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 20, 20));
 
         pos_j1_casilla_7.setText("i1");
-        casilla_7.add(pos_j1_casilla_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 20, 20));
+        casilla_7.add(pos_j1_casilla_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 20, 20));
 
         pos_j4_casilla_7.setText("i2");
-        casilla_7.add(pos_j4_casilla_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 20, 20));
+        casilla_7.add(pos_j4_casilla_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 20, 20));
 
         pos_j3_casilla_7.setText("i1");
-        casilla_7.add(pos_j3_casilla_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 20, 20));
+        casilla_7.add(pos_j3_casilla_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 20, 20));
 
         jPanel1.add(casilla_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 810, 70, 170));
 
@@ -1681,35 +1534,20 @@ public class Ventana extends javax.swing.JFrame {
         casilla_5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        nom_casilla_5.setText("jLabel1");
-        casilla_5.add(nom_casilla_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 70, 30));
-
-        col_casilla_5.setBackground(new java.awt.Color(22, 22, 42));
-
-        javax.swing.GroupLayout col_casilla_5Layout = new javax.swing.GroupLayout(col_casilla_5);
-        col_casilla_5.setLayout(col_casilla_5Layout);
-        col_casilla_5Layout.setHorizontalGroup(
-            col_casilla_5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 68, Short.MAX_VALUE)
-        );
-        col_casilla_5Layout.setVerticalGroup(
-            col_casilla_5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-
-        casilla_5.add(col_casilla_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 1, -1, -1));
+        nom_casilla_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/estaciontren1.png"))); // NOI18N
+        casilla_5.add(nom_casilla_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 70, 110));
 
         pos_j2_casilla_5.setText("i2");
-        casilla_5.add(pos_j2_casilla_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 20, 20));
+        casilla_5.add(pos_j2_casilla_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 20, 20));
 
         pos_j1_casilla_5.setText("i1");
-        casilla_5.add(pos_j1_casilla_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 20, 20));
+        casilla_5.add(pos_j1_casilla_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 20, 20));
 
         pos_j4_casilla_5.setText("i2");
-        casilla_5.add(pos_j4_casilla_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 20, 20));
+        casilla_5.add(pos_j4_casilla_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 20, 20));
 
         pos_j3_casilla_5.setText("i1");
-        casilla_5.add(pos_j3_casilla_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 20, 20));
+        casilla_5.add(pos_j3_casilla_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 20, 20));
 
         jPanel1.add(casilla_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 810, 70, 170));
 
@@ -1719,32 +1557,17 @@ public class Ventana extends javax.swing.JFrame {
         nom_casilla_4.setText("jLabel1");
         casilla_4.add(nom_casilla_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 70, 30));
 
-        col_casilla_4.setBackground(new java.awt.Color(22, 22, 42));
-
-        javax.swing.GroupLayout col_casilla_4Layout = new javax.swing.GroupLayout(col_casilla_4);
-        col_casilla_4.setLayout(col_casilla_4Layout);
-        col_casilla_4Layout.setHorizontalGroup(
-            col_casilla_4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 68, Short.MAX_VALUE)
-        );
-        col_casilla_4Layout.setVerticalGroup(
-            col_casilla_4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-
-        casilla_4.add(col_casilla_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 1, -1, -1));
-
         pos_j2_casilla_4.setText("i2");
-        casilla_4.add(pos_j2_casilla_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 20, 20));
+        casilla_4.add(pos_j2_casilla_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 20, 20));
 
         pos_j1_casilla_4.setText("i1");
-        casilla_4.add(pos_j1_casilla_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 20, 20));
+        casilla_4.add(pos_j1_casilla_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 20, 20));
 
         pos_j4_casilla_4.setText("i2");
-        casilla_4.add(pos_j4_casilla_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 20, 20));
+        casilla_4.add(pos_j4_casilla_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 20, 20));
 
         pos_j3_casilla_4.setText("i1");
-        casilla_4.add(pos_j3_casilla_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 20, 20));
+        casilla_4.add(pos_j3_casilla_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 20, 20));
 
         jPanel1.add(casilla_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 810, 70, 170));
 
@@ -1784,35 +1607,20 @@ public class Ventana extends javax.swing.JFrame {
         casilla_2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         casilla_2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        nom_casilla_2.setText("jLabel1");
-        casilla_2.add(nom_casilla_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 70, 30));
-
-        col_casilla_2.setBackground(new java.awt.Color(22, 22, 42));
-
-        javax.swing.GroupLayout col_casilla_2Layout = new javax.swing.GroupLayout(col_casilla_2);
-        col_casilla_2.setLayout(col_casilla_2Layout);
-        col_casilla_2Layout.setHorizontalGroup(
-            col_casilla_2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 68, Short.MAX_VALUE)
-        );
-        col_casilla_2Layout.setVerticalGroup(
-            col_casilla_2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 20, Short.MAX_VALUE)
-        );
-
-        casilla_2.add(col_casilla_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 1, -1, -1));
+        nom_casilla_2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/casillainterrogacion.png"))); // NOI18N
+        casilla_2.add(nom_casilla_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 70, 110));
 
         pos_j2_casilla_2.setText("i2");
-        casilla_2.add(pos_j2_casilla_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 20, 20));
+        casilla_2.add(pos_j2_casilla_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 20, 20));
 
         pos_j1_casilla_2.setText("i1");
-        casilla_2.add(pos_j1_casilla_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 20, 20));
+        casilla_2.add(pos_j1_casilla_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 20, 20));
 
         pos_j4_casilla_2.setText("i2");
-        casilla_2.add(pos_j4_casilla_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 20, 20));
+        casilla_2.add(pos_j4_casilla_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 20, 20));
 
         pos_j3_casilla_2.setText("i1");
-        casilla_2.add(pos_j3_casilla_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 20, 20));
+        casilla_2.add(pos_j3_casilla_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 20, 20));
 
         jPanel1.add(casilla_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 810, 70, 170));
 
@@ -2136,21 +1944,9 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JPanel col_casilla_0;
     private javax.swing.JPanel col_casilla_10;
     private javax.swing.JPanel col_casilla_12;
-    private javax.swing.JPanel col_casilla_15;
-    private javax.swing.JPanel col_casilla_17;
-    private javax.swing.JPanel col_casilla_2;
     private javax.swing.JPanel col_casilla_20;
-    private javax.swing.JPanel col_casilla_22;
-    private javax.swing.JPanel col_casilla_25;
     private javax.swing.JPanel col_casilla_28;
     private javax.swing.JPanel col_casilla_30;
-    private javax.swing.JPanel col_casilla_33;
-    private javax.swing.JPanel col_casilla_35;
-    private javax.swing.JPanel col_casilla_36;
-    private javax.swing.JPanel col_casilla_38;
-    private javax.swing.JPanel col_casilla_4;
-    private javax.swing.JPanel col_casilla_5;
-    private javax.swing.JPanel col_casilla_7;
     private javax.swing.JLabel cons_1_casilla_0;
     private javax.swing.JLabel cons_1_casilla_1;
     private javax.swing.JLabel cons_1_casilla_10;
