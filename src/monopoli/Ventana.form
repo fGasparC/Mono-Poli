@@ -203,39 +203,16 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_39">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="20" y="0" width="30" height="70"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_39">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom22.png"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="0" width="20" height="70"/>
+                  <AbsoluteConstraints x="0" y="0" width="50" height="70"/>
                 </Constraint>
               </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
+            </Component>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_39">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -411,46 +388,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_38">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="140" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_38">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="140" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_38">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="110" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_38">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="110" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_37">
@@ -473,39 +410,16 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_37">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="20" y="0" width="30" height="70"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_37">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom21.png"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="0" width="20" height="70"/>
+                  <AbsoluteConstraints x="0" y="0" width="50" height="70"/>
                 </Constraint>
               </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
+            </Component>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_37">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -681,46 +595,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_36">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="140" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_36">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="140" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_36">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="110" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_36">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="110" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_35">
@@ -816,46 +690,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_35">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="140" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_35">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="140" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_35">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="110" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_35">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="110" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_34">
@@ -878,39 +712,16 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_34">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="20" y="0" width="30" height="70"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_34">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom20.png"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="0" width="20" height="70"/>
+                  <AbsoluteConstraints x="0" y="0" width="50" height="70"/>
                 </Constraint>
               </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
+            </Component>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_34">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -1086,46 +897,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_33">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="140" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_33">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="140" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_33">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="110" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_33">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="110" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_32">
@@ -1148,39 +919,16 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_32">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="20" y="0" width="30" height="70"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_32">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom19.png"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="0" width="20" height="70"/>
+                  <AbsoluteConstraints x="0" y="0" width="50" height="70"/>
                 </Constraint>
               </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
+            </Component>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_32">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -1283,39 +1031,16 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_31">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="20" y="0" width="30" height="70"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_31">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom18.png"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="0" width="20" height="70"/>
+                  <AbsoluteConstraints x="0" y="0" width="50" height="70"/>
                 </Constraint>
               </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
+            </Component>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_31">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -1556,39 +1281,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_29">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom17.png"/>
+                </Property>
+                <Property name="verticalAlignment" type="int" value="3"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="120" width="70" height="30"/>
+                  <AbsoluteConstraints x="0" y="120" width="70" height="50"/>
                 </Constraint>
               </Constraints>
             </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_29">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
-                </Property>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="150" width="70" height="20"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_29">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -1764,46 +1467,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_28">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_28">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_28">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_28">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_27">
@@ -1826,39 +1489,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_27">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom16.png"/>
+                </Property>
+                <Property name="verticalAlignment" type="int" value="3"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="120" width="70" height="30"/>
+                  <AbsoluteConstraints x="0" y="120" width="70" height="50"/>
                 </Constraint>
               </Constraints>
             </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_27">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
-                </Property>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="150" width="70" height="20"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_27">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -1961,39 +1602,18 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_26">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom15.png"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+                <Property name="verticalAlignment" type="int" value="3"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="120" width="70" height="30"/>
+                  <AbsoluteConstraints x="0" y="120" width="70" height="50"/>
                 </Constraint>
               </Constraints>
             </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_26">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
-                </Property>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="150" width="70" height="20"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_26">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -2169,46 +1789,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_25">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_25">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_25">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_25">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_24">
@@ -2231,39 +1811,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_24">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom14.png"/>
+                </Property>
+                <Property name="verticalAlignment" type="int" value="3"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="120" width="70" height="30"/>
+                  <AbsoluteConstraints x="0" y="120" width="70" height="50"/>
                 </Constraint>
               </Constraints>
             </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_24">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
-                </Property>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="150" width="70" height="20"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_24">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -2366,39 +1924,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_23">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom13.png"/>
+                </Property>
+                <Property name="verticalAlignment" type="int" value="3"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="120" width="70" height="30"/>
+                  <AbsoluteConstraints x="0" y="120" width="70" height="50"/>
                 </Constraint>
               </Constraints>
             </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_23">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
-                </Property>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="150" width="70" height="20"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_23">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -2574,46 +2110,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_22">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_22">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_22">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_22">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_21">
@@ -2636,39 +2132,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_21">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom12.png"/>
+                </Property>
+                <Property name="verticalAlignment" type="int" value="3"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="120" width="70" height="30"/>
+                  <AbsoluteConstraints x="0" y="120" width="70" height="50"/>
                 </Constraint>
               </Constraints>
             </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_21">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
-                </Property>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="150" width="70" height="20"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_21">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -2909,40 +2383,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_19">
               <Properties>
-                <Property name="horizontalAlignment" type="int" value="2"/>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="120" y="0" width="30" height="70"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_19">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom11.png"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="150" y="0" width="20" height="70"/>
+                  <AbsoluteConstraints x="120" y="0" width="50" height="70"/>
                 </Constraint>
               </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
+            </Component>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_19">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -3045,39 +2496,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_18">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="120" y="0" width="30" height="70"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_18">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom10.png"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="150" y="0" width="20" height="70"/>
+                  <AbsoluteConstraints x="120" y="0" width="50" height="70"/>
                 </Constraint>
               </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
+            </Component>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_18">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -3253,46 +2682,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_17">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_17">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_17">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_17">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_16">
@@ -3315,39 +2704,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_16">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="120" y="0" width="30" height="70"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_16">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom9.png"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="150" y="0" width="20" height="70"/>
+                  <AbsoluteConstraints x="120" y="0" width="50" height="70"/>
                 </Constraint>
               </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
+            </Component>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_16">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -3523,46 +2890,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_15">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_15">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_15">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_15">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_14">
@@ -3585,39 +2912,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_14">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="120" y="0" width="30" height="70"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_14">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom8.png"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="150" y="0" width="20" height="70"/>
+                  <AbsoluteConstraints x="120" y="0" width="50" height="70"/>
                 </Constraint>
               </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
+            </Component>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_14">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -3720,39 +3025,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_13">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="120" y="0" width="30" height="70"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_13">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom7.png"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="150" y="0" width="20" height="70"/>
+                  <AbsoluteConstraints x="120" y="0" width="50" height="70"/>
                 </Constraint>
               </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
+            </Component>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_13">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -3928,46 +3211,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_12">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_12">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="40" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_12">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_12">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="10" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_11">
@@ -3990,39 +3233,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_11">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="120" y="0" width="30" height="70"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_11">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom6r.png"/>
                 </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="150" y="0" width="20" height="70"/>
+                  <AbsoluteConstraints x="120" y="0" width="50" height="70"/>
                 </Constraint>
               </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="70" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
+            </Component>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_11">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -4263,39 +3484,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_9">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom5.png"/>
+                </Property>
+                <Property name="verticalAlignment" type="int" value="1"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="20" width="70" height="30"/>
+                  <AbsoluteConstraints x="0" y="0" width="70" height="50"/>
                 </Constraint>
               </Constraints>
             </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_9">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
-                </Property>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="1" y="1" width="-1" height="-1"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="68" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_9">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -4398,39 +3597,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_8">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom4.png"/>
+                </Property>
+                <Property name="verticalAlignment" type="int" value="1"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="20" width="70" height="30"/>
+                  <AbsoluteConstraints x="0" y="0" width="70" height="50"/>
                 </Constraint>
               </Constraints>
             </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_8">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
-                </Property>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="1" y="1" width="-1" height="-1"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="68" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_8">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -4606,46 +3783,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_7">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="140" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_7">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="140" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_7">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="110" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_7">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="110" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_6">
@@ -4668,39 +3805,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_6">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom3.png"/>
+                </Property>
+                <Property name="verticalAlignment" type="int" value="1"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="20" width="70" height="30"/>
+                  <AbsoluteConstraints x="0" y="0" width="70" height="50"/>
                 </Constraint>
               </Constraints>
             </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_6">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
-                </Property>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="1" y="1" width="-1" height="-1"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="68" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_6">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -4876,46 +3991,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_5">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="140" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_5">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="140" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_5">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="110" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_5">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="110" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_4">
@@ -5011,46 +4086,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_4">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="140" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_4">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="140" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_4">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="110" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_4">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="110" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_3">
@@ -5073,39 +4108,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_3">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom2.png"/>
+                </Property>
+                <Property name="verticalAlignment" type="int" value="1"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="20" width="70" height="30"/>
+                  <AbsoluteConstraints x="0" y="0" width="70" height="50"/>
                 </Constraint>
               </Constraints>
             </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_3">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
-                </Property>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="1" y="1" width="-1" height="-1"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="68" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_3">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -5281,46 +4294,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-            <Component class="javax.swing.JLabel" name="cons_4_casilla_2">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="140" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_3_casilla_2">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="140" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_1_casilla_2">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i1"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="110" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JLabel" name="cons_2_casilla_2">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="i2"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="110" width="20" height="20"/>
-                </Constraint>
-              </Constraints>
-            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="casilla_1">
@@ -5343,39 +4316,17 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="nom_casilla_1">
               <Properties>
-                <Property name="text" type="java.lang.String" value="jLabel1"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/nom.png"/>
+                </Property>
+                <Property name="verticalAlignment" type="int" value="1"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="20" width="70" height="30"/>
+                  <AbsoluteConstraints x="0" y="0" width="70" height="50"/>
                 </Constraint>
               </Constraints>
             </Component>
-            <Container class="javax.swing.JPanel" name="col_casilla_1">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2a" green="16" red="16" type="rgb"/>
-                </Property>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="1" y="1" width="-1" height="-1"/>
-                </Constraint>
-              </Constraints>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="68" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
             <Component class="javax.swing.JLabel" name="pos_j2_casilla_1">
               <Properties>
                 <Property name="text" type="java.lang.String" value="i2"/>
@@ -5464,7 +4415,7 @@
         <Component class="javax.swing.JLabel" name="logo">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/LOGO.jpeg"/>
+              <Image iconType="3" name="/img/LOGO.jpeg"/>
             </Property>
           </Properties>
           <Constraints>
@@ -5596,6 +4547,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="dado1L">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/2dado1.png"/>
+                </Property>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
                     <BevelBorder/>
@@ -5611,7 +4565,7 @@
             <Component class="javax.swing.JLabel" name="dado2L">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/2dado1.png"/>
+                  <Image iconType="3" name="/img/2dado1.png"/>
                 </Property>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
